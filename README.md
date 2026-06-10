@@ -53,7 +53,7 @@ The dataset consists of **174,260 observations** described by **six variables**,
 | PM₂.₅ | µg/m³ | Fine particulate matter with aerodynamic diameter ≤ 2.5 µm. |
 | Temperature | °C | Indoor air temperature. |
 | Humidity | % | Indoor relative humidity. |
-| PHAQI | Health Level | Pupil Health Air Quality Index derived from the monitored IAQ parameters. |
+| MOS-IAQ | Health Level | Mean Opinion Score - Indoor air quality. |
 
 ### Dataset Structure
 
@@ -61,12 +61,12 @@ The dataset combines environmental measurements with spatial and temporal inform
 
 - **Environmental variables:** PM₂.₅, CO₂, Temperature, and Humidity.
 - **Spatio-temporal variables:** `IDclass` and `Timestamp`.
-- **Target variable:** `PHAQI` (Pupil Health Air Quality Index).
+- **Target variable:** `MOS-IAQ` (Mean Opinion Score - Indoor air quality. ).
 
-The following figure summarizes the levels of the PHAQI.
+The following figure summarizes the levels of the MOS-IAQ.
 
 <p align="center">
-  <img src="PHAQI-img.png" width="800">
+  <img src="qoe-iaq.png" width="800">
 </p>
 # Indoor Air Quality - IAQ- Dataset Schools San Luis Potosi-Mexico
 
